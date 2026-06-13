@@ -1,0 +1,18 @@
+Q. What is the fully qualified class name (FQCN) for the following code?
+package packages;
+public class HelloWorld 
+{
+    public static void main(String args[])    
+    {
+        System.out.println("Hello World! :)");
+    }
+}
+Ans: packages.HelloWorld
+
+Q. Relationship between JDK, JRE and JVM
+Ans: 
+JDK
+├── javac
+├── tools
+└── JRE
+     └── JVM

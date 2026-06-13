@@ -1,0 +1,22 @@
+> javac src/packages/HelloWorld.java //compile
+> java -cp src packages.HelloWorld //run
+
+java = start JVM
+-cp src = look inside src for classes
+cp = classpath
+packages.HelloWorld = package name + class name
+
+
+javac src/packages/HelloWorld.java
+    Compile source code into bytecode (.class)
+
+java -cp src packages.HelloWorld
+    Start JVM
+    Look inside src for classes
+    Find class packages.HelloWorld
+    Execute main()
+
+With respect to the commands:
+JDK(Java Development Kit) provides 'javac'
+JRE(Java Runtime Environment) provides 'java'
+JVM(Java Virtual Machine) executes the bytecode(in the .class file)
